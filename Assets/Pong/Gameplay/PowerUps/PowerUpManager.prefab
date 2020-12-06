@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8913099977075785222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4090601354716011215}
+  - component: {fileID: 627887994}
+  m_Layer: 0
+  m_Name: PowerUpManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4090601354716011215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8913099977075785222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &627887994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8913099977075785222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 534b77ec38d3a9544a83598e023316d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpMode: 0
+  spawnChance: 0.73
+  possiblePowerUps:
+  - {fileID: 3138788354517440693, guid: 6c0acd839341a2849aedd82ba698c2ed, type: 3}
+  - {fileID: 133243055249497627, guid: 6cece55a674312a4087b34223045bd91, type: 3}
+  - {fileID: 8256673625548801888, guid: 476441a5dd8d269469e6fd5e72afb430, type: 3}
+  - {fileID: 7095622088377589832, guid: cc969addc7289ab4687baf3f13a5687b, type: 3}
+  - {fileID: 499735529867690443, guid: 1ae272d38b9cd4f46822467a9f862e09, type: 3}
+  - {fileID: 1342652704945572187, guid: 963e99bf8d63d5442a2c36b7761802ad, type: 3}
+  - {fileID: 1342250852500820956, guid: b805833671a84c045b58cd476cbbf11f, type: 3}
+  - {fileID: 3610433721091543594, guid: 827e161487a112a488a4cbc7c8abb8a5, type: 3}
+  - {fileID: 6959706193735235546, guid: 98660dd723058244e85a11abd6bfbef6, type: 3}
+  - {fileID: 603511693883954193, guid: 3135246bcfc79424c9a7cdf279e01fa7, type: 3}
+  - {fileID: 7101211031567142465, guid: 99102696684879c439d658a32f430db6, type: 3}
+  - {fileID: 856815571615565540, guid: 3ca148531c5d1034ba29fe72775c613a, type: 3}
+  - {fileID: 4750437224932122597, guid: 63641e41f80b1e144a33e4c3bdec7e20, type: 3}
+  - {fileID: 5766435514173347711, guid: b069a0463e67b174da353e43594a424c, type: 3}
+  - {fileID: 407939763486753759, guid: 804a2e12cc194d847a6c8f7ed650d2e6, type: 3}
+  - {fileID: 2918272192523147082, guid: 4571663cce27b734893c4d819b2da527, type: 3}
+  - {fileID: 6235114861555409822, guid: c45384ba1c3c6fc4088ec107ffd2c3fd, type: 3}
+  - {fileID: 2070616466483973873, guid: a50e11324fc69d441a68a78d74a3ae20, type: 3}
+  - {fileID: 4227862021840236667, guid: 30ca95c577cf6e7408a886faf1e2c06b, type: 3}
+  - {fileID: 2815869260592619825, guid: 79daa852c4836d24da89cb31215d91cc, type: 3}
+  - {fileID: 5048371372392543389, guid: 4684a31c34ec85a4c90ba7ed62a97a0d, type: 3}
+  - {fileID: 4110854230544839321, guid: 182d663550c229d46a82fa5ee98f4167, type: 3}
+  - {fileID: 4979801581912550760, guid: a1092b62de2c481498197f946209c7a3, type: 3}
+  - {fileID: 4915007192968554362, guid: d38ed6be80b07034fba2858f3202307e, type: 3}
+  - {fileID: 2549269111030627022, guid: 8bee76d896decbb4d8b121d9c0d4e1ed, type: 3}
+  choosenPowerUps: []
+  destroyedBricks: []
+  brick: {fileID: 1785455138838479983, guid: 569c0d7b288c54949b71796fa1cd1147, type: 3}
